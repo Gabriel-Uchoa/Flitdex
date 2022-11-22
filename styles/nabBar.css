@@ -1,0 +1,33 @@
+body {
+  background: #042940;
+}
+header {
+  height: 22vh;
+}
+nav {
+  height: 14vh;
+  display: flex;
+  align-items: center;
+}
+.logoFLint {
+  width: 100vw;
+  display: flex;
+  margin-left: 2rem;
+  justify-content: flex-start;
+}
+.navBarNavegation {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+}
+.navBarNavegation > a {
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-decoration: none;
+  transition: color 1s;
+}
+.navBarNavegation > a:hover {
+  color: #1393e2;
+}
