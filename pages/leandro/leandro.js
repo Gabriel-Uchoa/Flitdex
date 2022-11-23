@@ -40,6 +40,6 @@ function loadMarks() {
 loadMarks();
 getValueLocalStorage();
 
-bt_edit.addEventListener('click', clickBtEdit);
-bt_prox.addEventListener('click', clickBtProx);
-bt_ante.addEventListener('click', clickBtAnte);
+bt_edit.addEventListener('change', clickBtEdit);
+bt_prox.addEventListener('change', clickBtProx);
+bt_ante.addEventListener('change', clickBtAnte);
