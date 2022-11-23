@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
   background: #042940;
+  font-family: Roboto;
 }
 header {
-  height: 22vh;
+  height: 16vh;
 }
 nav {
-  height: 14vh;
+  height: 13vh;
   display: flex;
   align-items: center;
 }
@@ -22,7 +25,7 @@ nav {
 }
 .navBarNavegation > a {
   color: white;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-left: 2rem;
   margin-right: 2rem;
   text-decoration: none;
