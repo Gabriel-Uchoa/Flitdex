@@ -1,0 +1,108 @@
+.content {
+  width: 100vw;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+.descriptiveInformation {
+  display: flex;
+  flex-direction: column;
+}
+.informationBasic {
+  width: 50vw;
+  display: flex;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+.informationText {
+  color: white;
+  margin-left: 1rem;
+}
+.description {
+  margin-left: 2rem;
+  width: 50vw;
+  color: white;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.textDescription {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigationPages > a {
+  color: #000;
+  margin-right: 2rem;
+  border-radius: 8px;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  background: #dbf227;
+  transition: color 1s, background 1s;
+}
+.navigationPages > a:hover,
+.navigation > button:hover {
+  color: white;
+  background: transparent;
+}
+.navigation > button {
+  color: #000;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  margin-right: 5rem;
+  margin-right: 2rem;
+  border-radius: 8px;
+  padding: 0.5rem 3rem;
+  background: #dbf227;
+  transition: color 1s, background 1s;
+}
+.informationSkills {
+  width: 40vw;
+  height: 80vh;
+  margin-right: 2rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #dbf227;
+}
+.informationSkills > h1 {
+  font-size: 2rem;
+}
+.informationSkills > div {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.informationSkills > div > div {
+  width: 30vw;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.informationSkills > div > div > input {
+  width: 30vw;
+  background-color: transparent;
+}
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2px;
+  background-color: black;
+  width: 25rem;
+}
+
+.range::-webkit-slider-thumb {
+  width: 2rem;
+  height: 1rem;
+  background-color: black;
+  border-radius: 1rem;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
