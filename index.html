@@ -9,23 +9,35 @@
     <title>FlitDex</title>
   </head>
 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/navBar.css" />
+    <link rel="stylesheet" href="styles/homeStyle.css" />
+    <title>FlitDex</title>
+  </head>
+
   <body>
     <header>
-      <nav>
+      <header class="cabecalho">
         <section class="logoFLint">
           <img
-            src="assets/logo_semsite_semfundo (1).png"
+            src="./assets/logo_semsite_semfundo (1).png"
             alt="Logo Canto superior direito"
             width="100px"
             height="75px"
           />
         </section>
-        <section class="navBarNavegation">
-          <a href="index.html">Home</a>
-          <a href="./pages/giovanna/giovanna.html">Participantes</a>
-          <a href="./pages/aboutUs.html">Sobre nós</a>
-        </section>
-      </nav>
+        <nav>
+          <section class="navBarNavegation">
+            <a href="index.html">Home</a>
+            <a href="pages/giovanna/giovanna.html">Participantes</a>
+            <a href="sobreNos.html">Sobre nós</a>
+          </section>
+        </nav>
+      </header>
     </header>
     <main class="content">
       <section class="imagemSeta">
@@ -43,7 +55,8 @@
             src="assets/giovanna.jpg"
             alt="foto do integrante do grupo"
             width="300"
-            class="imagemIntegrante"
+            id="linkImagem"
+            href="pages/leandro/leandro.html"
           />
           <h1 id="nomeCaroussel" class="nomeIntegrante">Giovanna</h1>
         </a>
