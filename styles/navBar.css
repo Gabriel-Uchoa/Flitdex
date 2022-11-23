@@ -4,8 +4,11 @@ body {
   background: #042940;
   font-family: Roboto;
 }
-header {
-  height: 16vh;
+.cabecalho {
+  min-height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 nav {
   height: 13vh;
@@ -13,15 +16,13 @@ nav {
   align-items: center;
 }
 .logoFLint {
-  width: 100vw;
   display: flex;
   margin-left: 2rem;
   justify-content: flex-start;
 }
 .navBarNavegation {
-  width: 100vw;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }
 .navBarNavegation > a {
   color: white;
@@ -33,4 +34,14 @@ nav {
 }
 .navBarNavegation > a:hover {
   color: #1393e2;
+}
+@media (max-width:700px) {
+  .cabecalho{
+    flex-direction: column;
+    align-items: start;
+  }
+  .navBarNavegation{
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
