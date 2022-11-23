@@ -1,0 +1,64 @@
+.content{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid{
+    background-color: white;
+    height: 40vh;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.title{
+    width: 30vw;
+    height: 8vh;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px 5px 0 0;
+}
+
+.divInteresses, .divInfluencias, .divMetas, .divNecessidades, .divMotivacoes, .divDores{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 8vw;
+    height: 20vh;
+    background-color: red;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    border-radius: 3px;
+    padding: 7px;
+    align-items: center;
+}
+
+.divInteresses{
+    background-color: #85E0A3;
+}
+
+.divInfluencias{
+    background-color: #FFAFA3;
+}
+
+.divMetas{
+    background-color: #80CAFF;
+}
+
+.divNecessidades{
+    background-color: #FFC776;
+}
+
+.divMotivacoes{
+    background-color: #D9B8FF;
+}
+
+.divDores{
+    background-color: #FFD966;
+}
