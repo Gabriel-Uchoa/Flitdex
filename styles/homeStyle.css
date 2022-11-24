@@ -9,6 +9,9 @@
     height: 75vh;
 }
 
+#linkImagem{
+    text-decoration: none;
+}
 .nomeIntegrante{
     color: white;
 }
