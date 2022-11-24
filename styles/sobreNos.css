@@ -22,19 +22,14 @@
     border-radius: 5px 5px 0 0;
 }
 
-.divInteresses,
-.divInfluencias,
-.divMetas,
-.divNecessidades,
-.divMotivacoes,
-.divDores {
+.describeContent {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 10vw;
     height: 20vh;
     background-color: red;
-
+    font-size: small;
     border-radius: 3px;
     padding: 7px;
     align-items: center;
@@ -44,7 +39,6 @@
     display: flex;
     padding: 10px;
     align-items: center;
-    
     gap: 10px
 }
 
@@ -72,7 +66,7 @@
     background-color: #FFD966;
 }
 
-@media (max-width:700px) {
+@media (max-width:880px) {
     .content {
         display: flex;
         flex-direction: column;
@@ -87,17 +81,13 @@
         gap: 25px
     }
 
-    .divInteresses,
-    .divInfluencias,
-    .divMetas,
-    .divNecessidades,
-    .divMotivacoes,
-    .divDores {
+    .describeContent {
         width: 33%;
+        font-size: large;
     }
 }
 
-@media (max-width:370px) {
+@media (max-width:495px) {
     .content {
         display: flex;
         flex-direction: column;
@@ -111,12 +101,7 @@
         flex-direction: column;
     }
 
-    .divInteresses,
-    .divInfluencias,
-    .divMetas,
-    .divNecessidades,
-    .divMotivacoes,
-    .divDores {
+    .describeContent {
         width: 80%;
     }
 }
