@@ -12,13 +12,15 @@
     <header>
         <header class="cabecalho">
           <section class="logoFLint">
-            <img src="../../assets/logo_semsite_semfundo (1).png" alt="Logo Canto superior direito" width="100px"
-              height="75px" />
+            <a href="../../index.html">
+                <img src="../../assets/logo_semsite_semfundo (1).png" alt="Logo Canto superior direito" width="100px"
+                  height="75px" />
+            </a>
           </section>
           <nav>
             <section class="navBarNavegation">
               <a href="../../index.html">Home</a>
-              <a href="./pages/giovanna/giovanna.html">Participantes</a>
+              <a href="giovanna.html">Participantes</a>
               <a href="../../sobreNos.html">Sobre nós</a>
             </section>
           </nav>
@@ -30,8 +32,7 @@
                 <p>1</p>
             </div>
             <div class="imgInfos">
-                <img src="../../assets/giovanna.jpg" alt="Foto Giovanna" width="200vw">
-                <div class="barInfos"></div>
+                <img src="../../assets/giovanna.jpg" alt="Foto Giovanna">
             </div>
             <div class="nameInfos">
                 <h1>Giovanna</h1>
@@ -55,49 +56,49 @@
                     <p class="itensLeft">Introvertido</p>
                     <p class="itensRight">Extrovertido</p>
                     <div class="bar">
-                        <div class="marker"></div>
+                        <div class="marker" id="80%"></div>
                     </div>
                 </div>
                 <div class="itensPersonalidade">
                     <p class="itensLeft">Analítico</p>
                     <p class="itensRight">Criativo</p>
                     <div class="bar">
-                        <div class="marker"></div>
+                        <div class="marker" id="50%"></div>
                     </div>
                 </div>
                 <div class="itensPersonalidade">
                     <p class="itensLeft">JS</p>
                     <p class="itensRight">HTML</p>
                     <div class="bar">
-                        <div class="marker"></div>
+                        <div class="marker" id="40%"></div>
                     </div>
                 </div>
                 <div class="itensPersonalidade">
                     <p class="itensLeft">Bagunçado</p>
                     <p class="itensRight">Organizado</p>
                     <div class="bar">
-                        <div class="marker"></div>
+                        <div class="marker" id="70%"></div>
                     </div>
                 </div>
                 <div class="itensPersonalidade">
                     <p class="itensLeft">Individual</p>
                     <p class="itensRight">Trabalho em equipe</p>
                     <div class="bar">
-                        <div class="marker"></div>
+                        <div class="marker" id="30%"></div>
                     </div>
                 </div>
                 <div class="itensPersonalidade">
                     <p class="itensLeft">Soft Skills</p>
                     <p class="itensRight">Hard Skills</p>
                     <div class="bar">
-                        <div class="marker"></div>
+                        <div class="marker" id="70%"></div>
                     </div>
                 </div>
                 <div class="itensPersonalidade">
                     <p class="itensLeft">Conservador</p>
                     <p class="itensRight">Tomador de risco</p>
                     <div class="bar">
-                        <div class="marker"></div>
+                        <div class="marker" id="85%"></div>
                     </div>
                 </div>
             </div>
@@ -108,16 +109,17 @@
             </div>
             <div class="textSobreMim">
                 <h1>Giovanna</h1>
-                <p>Meu nome é Giovanna, tenho 20 anos, atualmente trabalho com atendimento ao cliente e quando finalizar o curso já pretendo entrar na área de programação. Moro em São Paulo com a minha mãe, tenho um cachorro e no meu tempo livre gosto de assistir séries, treinar e sair para jantar com o meu namorado.</p>
+                <p id="textContent">Meu nome é Giovanna, tenho 20 anos, atualmente trabalho com atendimento ao cliente e quando finalizar o curso já pretendo entrar na área de programação. Moro em São Paulo com a minha mãe, tenho um cachorro e no meu tempo livre gosto de assistir séries, treinar e sair para jantar com o meu namorado.</p>
             </div>
             <div>
-                <button class="button">Anterior</button>
-                <button class="button">Próximo</button>
+                <button class="button" id="prevButton">Anterior</button>
+                <button class="button" id="nextButton">Próximo</button>
             </div>
-            <div>
-                <button class="button">Editar</button>
+            <div class="buttonRight">
+                <button class="button" id="editButton">Editar</button>
             </div>
           </section>
       </section>
 </body>
+<script src="giovanna.js"></script>
 </html>
