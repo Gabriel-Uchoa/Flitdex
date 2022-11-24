@@ -1,7 +1,5 @@
 const bt_edit = document.getElementById('bt_edit');
-const bt_prox = document.getElementById('bt_prox');
-const bt_ante = document.getElementById('bt_ante');
-const apresentarConteudo = document.getElementById('apresentarConteudo');
+const apresentarConteudo = document.getElementById('descricaoPessoal');
 const apresentarConteudoAntigo = window.localStorage.getItem("apresentar");
 const barras = document.getElementsByClassName('barra');
 
@@ -17,29 +15,21 @@ function getValueLocalStorage() {
     }
 }
 
-function clickBtProx() {
-    window.location.href = "http://localhost:5500/pages/arthur/arthur.html";
-}
-
-function clickBtAnte() {
-    window.location.href = "http://localhost:5500/pages/gabriel/gabriel.html";
-}
 
 function clickBtEdit() {
-    var newText = prompt('descrição:')
+    var newText = prompt('Editar mensagem:')
     window.localStorage.setItem("apresentar", newText)
     apresentarConteudo.textContent = newText
 }
 
-function loadMarks() {
+function abrirBarra() {
     for (let i = 0; i < barras.length; i++) {
         barras[i].style.left = barras[i].id
     }
 }
 
-loadMarks();
+abrirBarra();
 getValueLocalStorage();
 
-bt_edit.addEventListener('change', clickBtEdit);
-bt_prox.addEventListener('change', clickBtProx);
-bt_ante.addEventListener('change', clickBtAnte);
+bt_edit.addEventListener('click', clickBtEdit);
+
