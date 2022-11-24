@@ -5,7 +5,7 @@ const nomeCaroussel = document.getElementById('nomeCaroussel')
 const linkImagem = document.getElementById('linkImagem')
 
 const arrayImage = ['./assets/giovanna.jpg', './assets/gabriel.jpg', './assets/Leandro.jpg', './assets/arthur.jpg']
-const linkImage = ['./pages/giovanna/giovanna.html', './pages/gabriel_uchoa/gabriel.html', './pages/leandro/leandro.html', '#paginaarthur']
+const linkImage = ['./pages/giovanna/giovanna.html', './pages/gabriel_uchoa/gabriel.html', './pages/leandro/leandro.html', './pages/arthur/arthur.html']
 const nomeImage = ['Giovanna', 'Gabriel', 'Leandro', 'Arthur']
 
 var contador = 0
