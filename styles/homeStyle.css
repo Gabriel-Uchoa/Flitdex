@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,17 +9,23 @@
     height: 75vh;
 }
 
-#linkImagem{
+#arrowLeft,
+#arrowRight {
+    cursor: pointer;
+}
+
+#linkImagem {
     text-decoration: none;
 }
-.nomeIntegrante{
+
+.nomeIntegrante {
     color: white;
 }
 
-.imagemSeta{
+.imagemSeta {
     margin-bottom: 60px;
 }
 
-.imagemIntegrante{
+.imagemIntegrante {
     border-radius: 10px;
 }
