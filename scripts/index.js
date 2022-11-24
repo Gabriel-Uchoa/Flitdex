@@ -9,37 +9,33 @@ const linkImage = ['./pages/giovanna/giovanna.html', './pages/gabriel_uchoa/gabr
 const nomeImage = ['Giovanna', 'Gabriel', 'Leandro', 'Arthur']
 
 var contador = 0
+
 function verificarContador(num) {
-    if (num === 4) {
-        contador = 0
-    }
-    if (num === -1) {
-        contador = 3
-    }
+  if (num === 4) {
+    contador = 0;
+  }
+  if (num === -1) {
+    contador = 3;
+  }
 }
 
 function changeImagemCarouselProx() {
-    contador = contador + 1
-    verificarContador(contador)
+  contador = contador + 1;
+  verificarContador(contador);
 
-    imagemCaroussel.src = arrayImage[contador]
-    nomeCaroussel.textContent = nomeImage[contador]
-    linkImagem.href = linkImage[contador]
-  
+  imagemCaroussel.src = arrayImage[contador];
+  nomeCaroussel.textContent = nomeImage[contador];
+  linkImagem.href = linkImage[contador];
 }
 
 function changeImagemCarouselAnt() {
-    contador = contador - 1
-    verificarContador(contador)
-    
-    nomeCaroussel.textContent = nomeImage[contador]
-    linkImagem.href = linkImage[contador]
-    imagemCaroussel.src = arrayImage[contador]
+  contador = contador - 1;
+  verificarContador(contador);
+
+  nomeCaroussel.textContent = nomeImage[contador];
+  linkImagem.href = linkImage[contador];
+  imagemCaroussel.src = arrayImage[contador];
 }
 
-clickArrorRight.addEventListener('click', changeImagemCarouselProx)
-clickArrorLeft.addEventListener('click', changeImagemCarouselAnt)
-
-
-
-
+clickArrorRight.addEventListener("click", changeImagemCarouselProx);
+clickArrorLeft.addEventListener("click", changeImagemCarouselAnt);
