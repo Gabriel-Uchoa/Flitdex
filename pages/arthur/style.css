@@ -63,7 +63,7 @@
   transition: color 1s, background 1s;
 }
 .informationSkills {
-  width: 40vw;
+  width: 35vw;
   height: 80vh;
   margin-right: 2rem;
   border-radius: 8px;
@@ -77,7 +77,7 @@
 }
 .informationSkills > div {
   margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .informationSkills > div > div {
   width: 30vw;
@@ -105,7 +105,7 @@
   appearance: none;
   cursor: pointer;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   body {
     display: flex;
     align-items: center;
